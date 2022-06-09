@@ -1,4 +1,3 @@
-# import pandas_datareader as pdr
 import pandas_datareader.data as web
 import requests
 
@@ -38,5 +37,3 @@ if __name__ == "__main__":
     stock_df = load_stock("MSFT")  # 'msft' also Ok.
     print(stock_df)
     print(stock_df.columns)
-    # print(pdr.get_data_fred('GS10'))
-    # print(pdr.get_data_yahoo('MSFT'))
